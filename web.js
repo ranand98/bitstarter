@@ -6,7 +6,7 @@ var file = require('fs');
 
 var str = file.readFileSync("index.html");
 
-var output = new Buffer(256);
+var output = new Buffer(str);
 
 
 
